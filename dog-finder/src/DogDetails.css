@@ -1,0 +1,30 @@
+.DogDetails {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -30px;
+}
+
+.DogDetails h1 {
+  color: rgb(250, 141, 9);
+}
+.DogDetails img {
+  border-radius: 50%;
+}
+
+.DogDetails a {
+  text-decoration: none;
+  color: darkgreen;
+  font-size: 20px;
+}
+
+.DogDetails a:hover {
+  text-decoration: underline;
+}
+.DogDetails ul {
+  list-style-type: none;
+}
